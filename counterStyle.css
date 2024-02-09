@@ -1,0 +1,35 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 24px;
+  color: #FA8334;
+  background-color: #F1ECCE;
+}
+
+.text-above {
+  color: #18020C; /* Color of the text above the buttons */
+  background-color: #6E7E85; /* Background color of the text above the buttons */
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  width: 500px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #fff; /* Color of the text on the buttons */
+  background-color: #004643; /* Background color of the buttons */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #6E7E85; /* Slightly darker shade on hover */
+}
