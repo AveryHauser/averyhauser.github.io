@@ -1,0 +1,39 @@
+/* homeStyle.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1ECCE;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #333;
+}
+
+#secretCode {
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#checkCodeButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FAC748;
+    color: #100202;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#checkCodeButton:hover {
+    background-color: #6E7E85;
+}
