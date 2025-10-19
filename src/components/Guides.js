@@ -1,28 +1,21 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Homelab from './components/Homelab';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
-import Blog from './components/Blog';
-import Guides from './components/Guides'; // Import the new component
 
-
-function App() {
+function Guides() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <About />
-        <Homelab />
-        <Projects />
-        <Resume />
-        <Blog />
-        <Guides /> {/* Add the new component here */}
-      </main>
-    </div>
+    <section id="guides">
+      <h2>Guides</h2>
+      <p>
+        Here you can share helpful guides, tutorials, and snippets.
+        Think about common problems you've solved or interesting things you've learned.
+      </p>
+      {/* Example of a guide item */}
+      <div className="guide">
+        <h3>How to set up a Raspberry Pi for home automation</h3>
+        <p>A step-by-step guide on setting up a new Raspberry Pi from scratch...</p>
+        <a href="/guides/raspberry-pi-setup">Read More</a>
+      </div>
+    </section>
   );
 }
 
-export default App;
+export default Guides;
