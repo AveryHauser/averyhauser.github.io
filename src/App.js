@@ -6,8 +6,7 @@ import Homelab from './components/Homelab';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Blog from './components/Blog';
-import Guides from './components/Guides'; // Import the new component
-
+import Guides from './components/Guides';
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
         <Projects />
         <Resume />
         <Blog />
-        <Guides /> {/* Add the new component here */}
+        <Guides />
       </main>
     </div>
   );
