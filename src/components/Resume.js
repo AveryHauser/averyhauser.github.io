@@ -7,7 +7,7 @@ function Resume() {
       <p>
         You can embed a PDF of your resume here or link to it.
       </p>
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <a href="./resume.pdf" target="resume" rel="noopener noreferrer">Download Resume</a>
     </section>
   );
 }
