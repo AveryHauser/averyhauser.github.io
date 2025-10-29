@@ -4,7 +4,7 @@ import React from 'react';
 function Resume() {
   return (
     <section id="resume" className="my-16 px-4 text-left max-w-4xl mx-auto"> {/* Centered content */}
-      <h2 className="text-3xl font-bold text-light-green mb-8 text-center">Resume</h2> {/* Centered title */}
+      <h2 className="text-3xl font-bold underline text-light-green mb-8 text-center">Resume</h2> {/* Centered title */}
 
       {/* Download Link Button */}
       <div className="text-center mb-10">
@@ -14,7 +14,7 @@ function Resume() {
           rel="noopener noreferrer"
           className="inline-block bg-gray-700 hover:bg-gray-600 text-light-green font-semibold py-2 px-4 border border-dark-green hover:border-light-green rounded shadow transition-colors duration-200"
         >
-          Download Full Resume (PDF)
+          View Full Resume (PDF)
         </a>
       </div>
 

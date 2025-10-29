@@ -17,7 +17,7 @@ function App() {
       <Header />
       <main>
         <Routes> {/* Define your routes here */}
-          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/homelab" element={<Homelab />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />

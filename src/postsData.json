@@ -6,7 +6,7 @@
     "content": "\nThis is the *second* post. Make sure the date format is consistent (like YYYY-MM-DD) for sorting."
   },
   {
-    "slug": "first-post",
+    "slug": "001-first-post",
     "title": "My First Blog Post",
     "date": "2025-10-28",
     "content": "\nThis is the actual content of the post...\nIt should appear below the dashes."
