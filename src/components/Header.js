@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
@@ -8,12 +10,12 @@ function Header() {
         {/* Changed justify-center to justify-end to align items to the right */}
         <ul className="flex justify-end space-x-6 md:space-x-8"> {/* Changed to justify-end */}
           {/* Added text-lg for larger font size */}
-          <li><a href="about" className="text-lg hover:text-light-green transition-colors duration-200">About</a></li>
-          <li><a href="homelab" className="text-lg hover:text-light-green transition-colors duration-200">Homelab</a></li>
-          <li><a href="projects" className="text-lg hover:text-light-green transition-colors duration-200">Projects</a></li>
-          <li><a href="resume" className="text-lg hover:text-light-green transition-colors duration-200">Resume</a></li>
-          <li><a href="blog" className="text-lg hover:text-light-green transition-colors duration-200">Blog</a></li>
-          <li><a href="guides" className="text-lg hover:text-light-green transition-colors duration-200">Guides</a></li>
+          <li><Link to="about" className="text-lg hover:text-light-green transition-colors duration-200">About</Link></li>
+          <li><Link to="homelab" className="text-lg hover:text-light-green transition-colors duration-200">Homelab</Link></li>
+          <li><Link to="projects" className="text-lg hover:text-light-green transition-colors duration-200">Projects</Link></li>
+          <li><Link to="resume" className="text-lg hover:text-light-green transition-colors duration-200">Resume</Link></li>
+          <li><Link to="blog" className="text-lg hover:text-light-green transition-colors duration-200">Blog</Link></li>
+          <li><Link to="guides" className="text-lg hover:text-light-green transition-colors duration-200">Guides</Link></li>
         </ul>
       </nav>
     </header>
