@@ -22,9 +22,9 @@ function Resume() {
       <div className="mb-8">
         <h3 className="text-2xl font-semibold text-accent-green mb-3">Summary</h3>
         <p className="text-light-gray leading-relaxed">
-         Highly motivated Computer Science student with hands-on experience in IT support , system deployment , and Active Directory management. 
-         Proven leadership and problem-solving skills demonstrated through supervising technical staff and achieving the rank of Eagle Scout. 
-         Seeking a challenging role in [Desired Field - e.g., System Administration, IT Operations, or Software Development].
+         Highly motivated Computer Science student with hands on experience in IT support, system deployment, and Active Directory management. 
+         Proven leadership and problem solving skills demonstrated through supervising technical staff and achieving the rank of Eagle Scout. 
+         Seeking a challenging role in [Desired Field - e.g., Data Analyst, Cyber Security Analyst, IT Operations, or Software Development].
         </p>
       </div>
 
@@ -45,10 +45,10 @@ function Resume() {
         <h3 className="text-2xl font-semibold text-accent-green mb-3">Experience</h3>
         <div className="mb-4">
           <h4 className="text-xl font-medium text-light-gray">Lead IT Lab Technical</h4>
-          <p className="text-medium-gray italic">Ohio University / Sept 2023 – Present</p>
+          <p className="text-medium-gray italic">Ohio University / Aug 2025 – Present</p>
           <ul className="list-disc list-inside text-light-gray mt-2 space-y-1">
             <li>Supervise and mentor IT lab technicians, overseeing task delegation and issue resolution.</li>
-            <li>Created and deployed computer images for college-wide technology rollouts, ensuring consistent system setup.</li>
+            <li>Created and deployed computer images for college wide technology rollouts, ensuring consistent system setup.</li>
             <li>Managed user and device access in Active Directory, adding computers, faculty, and staff to appropriate domains, NAS, and printer groups.</li>
           </ul>
         </div>

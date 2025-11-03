@@ -8,7 +8,9 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Blog from './components/Blog';
 import Guides from './components/Guides';
+import GuidePage from './components/GuidePage';
 import CursorTrail from './components/CursorTrail';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/guides" element={<Guides />} />
+          <Route path="/guides/:slug" element={<GuidePage />} />
         </Routes>
       </main>
     </div>
