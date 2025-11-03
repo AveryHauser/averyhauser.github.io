@@ -2,8 +2,8 @@ import React from 'react';
 
 function Guides() {
   return (
-    <section id="guides">
-      <h2>Guides</h2>
+    <section id="guides" className="my-12 px-4"> {/* Added horizontal padding */}
+      <h2 className="text-3xl font-bold underline text-light-green mb-6 text-center">Guides</h2> {/* Centered title */}
       <p>
         Here you can share helpful guides, tutorials, and snippets.
         Think about common problems you've solved or interesting things you've learned.
