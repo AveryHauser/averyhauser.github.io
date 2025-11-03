@@ -22,7 +22,9 @@ function Resume() {
       <div className="mb-8">
         <h3 className="text-2xl font-semibold text-accent-green mb-3">Summary</h3>
         <p className="text-light-gray leading-relaxed">
-          Highly motivated tech enthusiast with experience in [Your Skill 1], [Your Skill 2], and managing home lab infrastructure. Seeking a challenging role in [Desired Field]...
+         Highly motivated Computer Science student with hands-on experience in IT support , system deployment , and Active Directory management. 
+         Proven leadership and problem-solving skills demonstrated through supervising technical staff and achieving the rank of Eagle Scout. 
+         Seeking a challenging role in [Desired Field - e.g., System Administration, IT Operations, or Software Development].
         </p>
       </div>
 
@@ -30,11 +32,10 @@ function Resume() {
       <div className="mb-8">
         <h3 className="text-2xl font-semibold text-accent-green mb-3">Key Skills</h3>
         <ul className="list-disc list-inside text-light-gray space-y-1">
-          <li>Linux Administration (Ubuntu, CentOS)</li>
-          <li>Networking (TCP/IP, VLANs, Firewalls)</li>
-          <li>Virtualization (Proxmox, Docker)</li>
-          <li>Scripting (Bash, Python)</li>
-          <li>Web Technologies (React, Node.js - if applicable)</li>
+          <li>Programming & Databases: C++, OCaml, SQL</li>
+          <li>IT Administration: Active Directory , System Imaging & Deployment , Technical Support & Troubleshooting</li>
+          <li>Professional Skills: Staff Supervision & Mentoring , Technical Writing (Manuals) , Inventory Management</li>
+          <li>Software & Hardware: Microsoft Office Suite , A/V Support (Livestreams)</li>
           {/* Add more skills */}
         </ul>
       </div>
@@ -43,11 +44,12 @@ function Resume() {
       <div className="mb-8">
         <h3 className="text-2xl font-semibold text-accent-green mb-3">Experience</h3>
         <div className="mb-4">
-          <h4 className="text-xl font-medium text-light-gray">Job Title / Role</h4>
-          <p className="text-medium-gray italic">Company Name / Personal Project | Start Date – End Date</p>
+          <h4 className="text-xl font-medium text-light-gray">Lead IT Lab Technical</h4>
+          <p className="text-medium-gray italic">Ohio University / Sept 2023 – Present</p>
           <ul className="list-disc list-inside text-light-gray mt-2 space-y-1">
-            <li>Responsibility or achievement description.</li>
-            <li>Another key accomplishment.</li>
+            <li>Supervise and mentor IT lab technicians, overseeing task delegation and issue resolution.</li>
+            <li>Created and deployed computer images for college-wide technology rollouts, ensuring consistent system setup.</li>
+            <li>Managed user and device access in Active Directory, adding computers, faculty, and staff to appropriate domains, NAS, and printer groups.</li>
           </ul>
         </div>
         {/* Add more experience entries */}
@@ -57,8 +59,8 @@ function Resume() {
       <div>
         <h3 className="text-2xl font-semibold text-accent-green mb-3">Education</h3>
         <div className="mb-4">
-          <h4 className="text-xl font-medium text-light-gray">Degree Name / Certification</h4>
-          <p className="text-medium-gray italic">Institution Name | Graduation Date / Completion Date</p>
+          <h4 className="text-xl font-medium text-light-gray">Bachelor of Science in Computer Science (in progress)</h4>
+          <p className="text-medium-gray italic">Ohio University | Anticipated Graduation: May 2027</p>
           {/* Optional: Add relevant coursework or honors */}
         </div>
         {/* Add more education entries */}
