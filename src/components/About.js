@@ -4,15 +4,15 @@ import React from 'react';
 function About() {
   return (
     <section id="about" className="my-12 px-4"> {/* Added horizontal padding */}
-      <h2 className="text-3xl font-bold underline text-light-green mb-6 text-center">About Website</h2> {/* Centered title */}
+      <h2 className="text-3xl font-bold underline text-light-green mb-2 text-center">About Website</h2> {/* Centered title */}
       <div className="max-w-3xl mx-auto text-center"> {/* Centered paragraph container */}
-        <p className="text-light-gray leading-relaxed">
+        <p className="text-light-gray mb-4 leading-relaxed">
           This site serves as my developer portfolio and documentation of my experiences. I want to share the knowledge I gain and make it freely available
           to others. My goal is to provide useful information, express my thoughts on various topics, and create organized guides to reinforce my own learning
           while helping others. If you notice any spelling mistakes on GitHub, please let me know. There will likely be a few.
         </p>
         <h2 className='text-light-green text-2xl mb-2 font-bold text-center'>Homelab</h2>
-        <p className="text-light-gray leading-relaxed">
+        <p className="text-light-gray mb-4 leading-relaxed">
           Everything I showcase here will not be hosted on my home network. I’ll share the types of machines and software I use, but I won’t include specific
           hardware details for security reasons. This gives me peace of mind while still allowing me to share insights from my homelab setup and other useful
           information.

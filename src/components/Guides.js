@@ -91,7 +91,7 @@ function FileSystemNode({ node }) {
         className="flex items-center text-light-gray hover:text-light-green transition-colors duration-200"
       >
         <FileIcon className="w-5 h-5 mr-2 text-light-green" /> 
-        <span className="underline">{node.name}</span>
+        <span>{node.name}</span>
       </Link>
     </div>
   );
@@ -126,7 +126,7 @@ function Guides() {
             <li key={fileNode.slug} className="mb-2 ml-4">
               <Link
                 to={`/guides/${fileNode.slug}`}
-                className="text-light-gray hover:text-light-green underline"
+                className="text-light-gray hover:text-light-green"
               >
                 {fileNode.title}
               </Link>

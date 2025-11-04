@@ -7,7 +7,7 @@ function Blog() {
   const sortedPosts = postsData;
 
   return (
-    <section id="blog" className="my-16 px-4 ">
+    <section id="blog" className="my-12 px-4 ">
       <h2 className="text-3xl font-bold  text-light-green mb-10 text-center underline">Blog</h2>
 
       {sortedPosts.length > 0 ? (

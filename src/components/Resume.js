@@ -3,7 +3,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section id="resume" className="my-16 px-4 text-left max-w-4xl mx-auto"> {/* Centered content */}
+    <section id="resume" className="my-12 px-4 text-left max-w-4xl mx-auto"> {/* Centered content */}
       <h2 className="text-3xl font-bold underline text-light-green mb-8 text-center">Resume</h2> {/* Centered title */}
 
       {/* Download Link Button */}
