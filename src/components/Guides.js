@@ -121,7 +121,7 @@ function Guides() {
         <h3 className="text-2xl font-bold text-light-green mb-4 text-center">
           Full Catalog
         </h3>
-        <ul className="list-disc list-inside text-left">
+        <ul className="list-disc list-outside text-left ml-4 pl-5 marker:text-light-green">
           {flatCatalog.map(fileNode => (
             <li key={fileNode.slug} className="mb-2 ml-4">
               <Link
