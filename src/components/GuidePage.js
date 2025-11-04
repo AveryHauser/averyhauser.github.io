@@ -57,14 +57,14 @@ function GuidePage() {
         </div>
 
         {/* Article Content */}
-        <article className="p-6 md:p-8 bg-gray-900 rounded-lg shadow-xl border-2 border-gray-700">
-          <h2 className="text-3xl font-bold text-light-green mb-2">
+        <article className="group p-6 md:p-8 bg-gray-900 rounded-lg shadow-xl border-2 border-gray-700 transition duration-300 ease-in-out hover:shadow-2xl hover:border-light-green">
+          <h2 className="text-2xl font-bold text-medium-gray mb-2 group-hover:text-light-green transition-colors duration-300">
             {guide.title}
           </h2>
-          <p className="text-sm text-medium-gray mb-6">{guide.date}</p>
+          <p className="text-sm text-medium-gray mb-4 group-hover:text-light-green transition-colors duration-300">{guide.date}</p>
           
           {/* Apply the same prose classes from your blog */}
-          <div className="prose prose-invert max-w-none text-light-gray">
+          <div className="prose prose-invert max-w-none text-medium-gray mb-4 group-hover:text-light-gray transition-colors duration-300">
             <ReactMarkdown>{guide.content}</ReactMarkdown>
           </div>
         </article>
