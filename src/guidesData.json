@@ -1,0 +1,86 @@
+[
+  {
+    "type": "folder",
+    "name": "computer-science",
+    "children": [
+      {
+        "type": "file",
+        "name": "100-test.md",
+        "title": "100 test",
+        "date": "2025-11-03",
+        "slug": "100-test",
+        "content": "\nThis is my first guide!"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "homelab",
+    "children": [
+      {
+        "type": "folder",
+        "name": "networking",
+        "children": [
+          {
+            "type": "file",
+            "name": "200-opensense-setup.md",
+            "title": "Setting up OPNsense",
+            "date": "2025-11-03",
+            "slug": "200-opnsense-setup",
+            "content": "\nThis is my first guide!"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "services",
+        "children": [
+          {
+            "type": "file",
+            "name": "210-running-pihole.md",
+            "title": "Running Pihole",
+            "date": "2025-11-03",
+            "slug": "210-running-pihole",
+            "content": "\nThis is my first guide!"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "virtualization",
+        "children": [
+          {
+            "type": "file",
+            "name": "220-promox-basics.md",
+            "title": "Promox Basics",
+            "date": "2025-11-03",
+            "slug": "220-promox-basics",
+            "content": "\nThis is my first guide!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "web-development",
+    "children": [
+      {
+        "type": "file",
+        "name": "300-test.md",
+        "title": "300 Test",
+        "date": "2025-11-03",
+        "slug": "300-test",
+        "content": "\nThis is my first guide!"
+      }
+    ]
+  },
+  {
+    "type": "file",
+    "name": "000-useful-bash-commands.md",
+    "title": "Useful Bash Commands",
+    "date": "2025-11-03",
+    "slug": "000-useful-bash-commands",
+    "content": "\nThis is my first guide!"
+  }
+]
