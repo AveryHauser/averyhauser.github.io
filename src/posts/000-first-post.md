@@ -1,7 +1,7 @@
 ---
 title: 'Setting Up Homelab Wifi'
 date: '2025-11-3'
-slug: '001-homelab-wifi-setup'
+slug: '000-homelab-wifi-setup'
 ---
 
 I’ve been exploring options for setting up a soft router mini PC to run OPNsense, but the most affordable dedicated device I found was around $120 USD. To cut costs, I decided to experiment with Proxmox, allowing me to virtualize OPNsense on an older computer I already had. The machine is about ten years old and can’t run Windows 11, but that actually makes it perfect for this project—and a good opportunity to see what else I can host through Proxmox.
