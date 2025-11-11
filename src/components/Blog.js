@@ -4,7 +4,8 @@ import ReactMarkdown from 'react-markdown';
 import postsData from '../postsData.json'; // Make sure this path is correct
 
 function Blog() {
-  const sortedPosts = postsData;
+  const sortedPosts = [...postsData].sort((a, b) => new Date(b.date) - new Date(a.date));
+
 
   return (
     <section id="blog" className="my-12 px-4 ">
