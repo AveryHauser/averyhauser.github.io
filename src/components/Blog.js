@@ -6,7 +6,6 @@ import postsData from '../postsData.json'; // Make sure this path is correct
 function Blog() {
   const sortedPosts = [...postsData].sort((a, b) => new Date(b.date) - new Date(a.date));
 
-
   return (
     <section id="blog" className="my-12 px-4 ">
       <h2 className="text-3xl font-bold  text-light-green mb-10 text-center underline">Blog</h2>
